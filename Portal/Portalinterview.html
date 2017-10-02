@@ -13,8 +13,10 @@ function changeColor(){
      var property = document.getElementById('change');
      if (property.style.color === 'blue'){
          property.style.color = 'yellow';
-     }else{
+     }else if(property.style.color === 'yellow'){
          property.style.color='blue';
+     }else{
+         property.style.color='yellow';
      }
 
 }
