@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = 'stylesheet' href = 'style1.css'>
+    <meta charset="UTF-8">
+    <title>Portal Interview</title>
+</head>
+<body>
+<h1 id = 'change'>HELLO WORLD</h1>
+<button onclick = changeColor()>Click to change to color</button>
+<script>
+function changeColor(){
+     var property = document.getElementById('change');
+     if (property.style.color === 'blue'){
+         property.style.color = 'yellow';
+     }else{
+         property.style.color='blue';
+     }
+
+}
+</script>
+</body>
+</html>
